@@ -63,7 +63,7 @@ public class StackActivity extends AppCompatActivity
         }
         else if(sender == push)
         {
-            ListCore.ll.addFront(String.valueOf(this.findViewById(R.id.newStackET)));
+            ListCore.ll.addFront(ListCore.newValueEditText.getText().toString());
 
         }
         else if (sender == pop)
